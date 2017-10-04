@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiLo</string>
+    <string name="action_about">Á propos</string>
+    <string name="ans">"Solution: "</string>
+    <string name="duke2">Voici Duke! Votre compétiteur</string>
+    <string name="duke1">Duke signe</string>
+    <string name="exWin">"EXCELLENTE VICTOIRE! :) Nombre de suppositions: "</string>
+    <string name="giveUp">Vous se renonce? Maintenir le bouton enfoncé pour voir la réponse.</string>
+    <string name="guessNum"># de devinettes</string>
+    <string name="guessingBtn">DEVINER</string>
+    <string name="hiLoTitle">Jeu de HiLo</string>
+    <string name="high">est trop haut :(</string>
+    <string name="low">"est trop bas :( "</string>
+    <string name="pleaseReset">Plus de chances! RÉINITIALISER</string>
+    <string name="resetBtn">RÉINITIALISER</string>
+    <string name="resetComp">RÉINITIALISATION TERMINÉ</string>
+    <string name="supWin">VICTOIRE SUPÉRIEURE! :D Nombre de suppositions:</string>
+    <string name="intro">Pour jouer: Vous pouvez devinez n\'importe quel nombre entre 1 et 1000 que vous voulez. Mais vous n\'avez que 10 suppositions! Bonne Chance!</string>
+</resources>

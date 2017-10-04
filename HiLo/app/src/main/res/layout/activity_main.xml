@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/hiLoTitle"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/intro"
+        android:textColor="#CFD8DC" />
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:backgroundTint="#ededed"
+        android:elevation="5dp"
+        android:ems="7"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:hint="@string/inputHint"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#546E7A"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/guessingBtn"
+        android:textColor="#CFD8DC" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/duke1"
+        android:elevation="24dp"
+        android:maxHeight="190dp"
+        android:maxWidth="190dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dukewavingcompetitor" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#546E7A"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/resetBtn"
+        android:textColor="#CFD8DC" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="110dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/giveUp"
+        android:textColor="#B0BEC5"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
